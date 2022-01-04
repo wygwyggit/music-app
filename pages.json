@@ -1,17 +1,73 @@
 {
 	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-app"
-		}
-	}],
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/singer/singer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/rank/rank",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "yg-music",
+		"navigationBarBackgroundColor": "#508bff",
 		"backgroundColor": "#F8F8F8",
 		"app-plus": {
 			"background": "#efeff4"
 		}
-	}
+	},
+  "tabBar": {
+    "selectedColor":"#508bff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath":"static/tab-icons/home-b.png",
+        "selectedIconPath":"static/tab-icons/home-a.png"
+      }, {
+        "pagePath": "pages/singer/singer",
+        "text": "歌手",
+        "iconPath":"static/tab-icons/singer-b.png",
+        "selectedIconPath":"static/tab-icons/singer-a.png"
+      }, {
+        "pagePath": "pages/rank/rank",
+        "text": "排行",
+        "iconPath":"static/tab-icons/home-b.png",
+        "selectedIconPath":"static/tab-icons/home-a.png"
+      }, {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath":"static/tab-icons/my-b.png",
+        "selectedIconPath":"static/tab-icons/my-a.png"
+      }
+    ]
+  }
 }
